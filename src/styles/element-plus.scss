@@ -1,0 +1,40 @@
+@use 'variables' as *;
+.el-menu {
+    border-right: none !important;
+  }
+  
+  .el-header {
+    padding: 0 !important;
+    height: $header-height !important;
+  }
+  
+  .el-breadcrumb__inner.is-link {
+    font-weight: normal;
+  }
+  
+  .el-table {
+    .el-table__header-wrapper {
+      th {
+        background: #f5f7fa;
+        color: #606266;
+      }
+    }
+  }
+  .el-dialog {
+    .el-dialog__header {
+      margin: 0;
+      padding: 16px;
+      border-bottom: 1px solid #e4e7ed;
+    }
+    
+    .el-dialog__body {
+      padding: 20px;
+    }
+    
+    .el-dialog__footer {
+      padding: 16px;
+      border-top: 1px solid #e4e7ed;
+    }
+  }
+  
+  
